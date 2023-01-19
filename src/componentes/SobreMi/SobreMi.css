@@ -1,0 +1,127 @@
+.containerSobreMi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.info {
+    position: relative;
+    margin-top: 2rem;
+    background-color: #31355200;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: #EEE6CE;
+    margin-left: 2rem;
+    
+}
+
+.fotoPerfil {
+    border-radius: 2%;
+    transition: .5s;
+}
+
+.fotoPerfil:hover {
+    box-shadow: 0 0.5rem 0.9rem rgb(157, 51, 72);
+    transition: box-shadow 1s ease;
+}
+
+.sobremi {
+    position: relative;
+    color: #EEE6CE;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.sobremi section {
+    padding: 10px;
+}
+
+.number {
+    color: #B8405E;
+}
+
+.texto {
+    padding: 1rem;
+}
+
+.fabri {
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    color: #2EB086;
+}
+
+.s1 {
+    color: #2EB086;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.s2 {
+    padding-left: 1.2rem;
+}
+
+.hola {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.descarga-boton {
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5%;
+    padding: 0.5rem 0.5rem;
+    background-color: #B8405E;
+}
+
+.divBoton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding-top: 1rem;
+}
+
+.descarga-boton:hover {
+    background-color: #630000;
+    transition: 1s ease;
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1000px) {
+    .sobremi {
+        font-size: 32px;
+    }
+
+    .fotoPerfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+
+    .s1 {
+        font-size: 20px;
+    }
+
+    .descarga-boton {
+        font-size: 20px;
+    }
+}

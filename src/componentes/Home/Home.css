@@ -1,0 +1,97 @@
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+} 
+
+
+.containerNav{
+    background-attachment: fixed;
+}
+
+    
+    .hs {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .hs h2{
+        color: #2EB086;
+        font-size: 80px;
+        float: left;
+        position: relative;
+    }
+    .hs h1{
+        position:relative;
+        color: #EEE6CE;
+        font-size: 100px;
+        float: left;   
+    }
+    .hs span{
+        position: absolute;
+        right: 0;
+        width: 0;
+        background: #313552 ; 
+        border-left: 1px solid;
+        animation: maquina 5s infinite alternate steps(80) 
+    }
+
+    @media screen and (min-width: 500px){
+        @keyframes maquina {
+            from {
+                width: 100%;
+            }
+            to {
+                widht: 0;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px){
+        .hs h1{
+        font-size: 65px;
+        }
+        .hs h2{
+        font-size: 50px;
+        }
+    }
+
+    @media screen and (max-width: 300px){
+        .hs h1{
+            font-size: 45px;
+            }
+            .hs h2{
+            font-size: 30px;
+            }
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .icono{
+        color: #FFA8A8;
+        margin: 1rem;
+    }
+
+    .icono:hover{
+        color: #1D5C63;
+        transition: 1.5s ease;
+    }
+
+
+
+    .contenedorMayor{
+        background-color: red;
+    }
+    
