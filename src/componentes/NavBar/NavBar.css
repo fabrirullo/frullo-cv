@@ -2,21 +2,15 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     display: block;
-    flex-direction: column;
     color: white;
     transform: matrix(1, 0, 0, 1, 0, 0);
     transition: all 1s ease;
     text-decoration: none solid rgb(255, 255, 255, 0.835);
 }
 .containerNav{
-    flex-direction: column;    
-    position:absolute;
+    position: fixed;
     display: block;
-
-}
-
-.nav{
-    flex-direction: column;  
+    flex-direction: row;
 }
 
 .redesNav{
@@ -30,6 +24,8 @@
 .nav-contacto a {
     padding: 0.5rem;
 }
+
+
 
 @media screen and (max-width: 400px) {
     .nav-link {
